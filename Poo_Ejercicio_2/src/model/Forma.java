@@ -22,6 +22,6 @@ public abstract class Forma {
         this.Color = Color;
     }
 
-    public abstract double calcularArea();
+    abstract double calcularArea();
 
 }
