@@ -13,7 +13,7 @@ public class Circulo extends Forma{
     }
 
     @Override
-    double calcularArea() {
+    public double calcularArea() {
         return Math.PI * radio * radio;
     }
 
