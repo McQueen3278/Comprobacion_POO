@@ -3,7 +3,7 @@ package model;
 public class Circulo extends Forma{
     private double radio;
 
-    public void Circulo(){
+    public Circulo(){
 
     }
 

@@ -5,7 +5,7 @@ public abstract class Forma {
     private String Color;
 
 
-    public void Forma(){
+    public Forma(){
     }
 
     public Forma(String Color){
