@@ -3,6 +3,10 @@ package model;
 public class Desarrollador extends Empleado {
     private String java;
 
+    public Desarrollador(){
+
+    }
+
     public Desarrollador(String nombre, int edad, double salario, String lenguajeProgramacion) {
         super(nombre, edad, salario);
         this.java = lenguajeProgramacion;
