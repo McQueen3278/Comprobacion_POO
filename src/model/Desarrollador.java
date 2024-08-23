@@ -1,26 +1,24 @@
 package model;
 
 public class Desarrollador extends Empleado {
-    private String java;
+    private String lProgramador;
 
-    public Desarrollador(){
+    public Desarrollador() {
 
     }
 
     public Desarrollador(String nombre, int edad, double salario, String lenguajeProgramacion) {
         super(nombre, edad, salario);
-        this.java = lenguajeProgramacion;
+        this.lProgramador = lenguajeProgramacion;
     }
-
-    
 
     // Getters y Setters
     public String getLenguajeProgramacion() {
-        return java;
+        return lProgramador;
     }
 
     public void setLenguajeProgramacion(String lenguajeProgramacion) {
-        this.java = lenguajeProgramacion;
+        this.lProgramador = lenguajeProgramacion;
     }
 
     @Override

@@ -5,9 +5,8 @@ public abstract class Empleado {
     private int edad;
     private double salario;
 
-
     public Empleado() {
-        
+
     }
 
     public Empleado(String nombre, int edad, double salario) {
@@ -16,11 +15,7 @@ public abstract class Empleado {
         this.salario = salario;
     }
 
-    
     public abstract void trabajar();
-
-   
-
 
     public String getNombre() {
         return nombre;
@@ -46,11 +41,7 @@ public abstract class Empleado {
         this.salario = salario;
     }
 
-
-
-
-     // Método normal (sobrecarga)
-     public void trabajar(int horas) {
+    public void trabajar(int horas) {
         System.out.println("Trabaja " + horas + " horas.");
     }
 }
