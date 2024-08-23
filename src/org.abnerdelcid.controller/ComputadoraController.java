@@ -1,10 +1,14 @@
+
 public class ComputadoraController {
+    
 
 
-    public static void Computadora(){
-        
+
+    public static void Computadoraensendida(){
+
 
     }
+
 
 
 
